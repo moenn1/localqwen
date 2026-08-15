@@ -1,11 +1,11 @@
 # Local Qwen3.8 setup
 
-This directory is the local home for running `unsloth/Qwen3.8-27B-GGUF` on this Darwin host.
+This directory is the local home for running `unsloth/Qwen3.8-27B-GGUF` on macOS, Linux, or Windows.
 
 ## Hardware
 
-- Darwin host with Apple Silicon and 32 GB unified memory
-- Metal-enabled `llama.cpp` build
+- Darwin / Apple Silicon, Linux, and Windows supported through `llama.cpp`
+- 32 GB total or unified memory is the practical starting point for Q4
 - Recommended model: `Qwen3.8-27B-UD-Q4_K_XL.gguf` (16.7 GiB)
 
 ## Layout
@@ -33,6 +33,8 @@ The server listens only on this host at `http://127.0.0.1:8080` and exposes Open
 ```
 
 The 16.7 GiB download is resumable. The model file remains local and is excluded from Git.
+
+On Windows PowerShell, use `./scripts/download-qwen3.8.ps1` and `./scripts/serve-qwen3.8.ps1`. See [platform setup notes](docs/platform-setup.md) for build and GPU backend instructions on all supported platforms.
 
 ## Useful commands
 

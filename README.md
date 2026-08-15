@@ -51,3 +51,5 @@ curl http://127.0.0.1:8081/v1/models
 - [Unsloth: Qwen3.8 local-running guide](https://unsloth.ai/docs/models/qwen3.8)
 - [Qwen3.8 model collection on Hugging Face](https://huggingface.co/collections/Qwen/qwen38)
 - [Unsloth Qwen3.8-27B GGUF repository](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF)
+
+For a walkthrough of startup, serving, weights, and inference parameters, read [learning.md](learning.md).

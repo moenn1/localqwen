@@ -1,0 +1,6 @@
+# Large local model artifacts and Hugging Face transfer cache
+models/
+.cache/
+
+# llama.cpp build products
+llama.cpp/

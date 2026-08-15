@@ -2,7 +2,7 @@
 
 ## Chosen quantization
 
-`UD-Q4_K_XL` is the recommended starting point on this 32 GB M1 Pro. Its Hugging Face file size is 16.7 GiB. It should fit in unified memory, leaving room for the operating system and a modest KV cache.
+`UD-Q4_K_XL` is the recommended starting point on this 32 GB Apple Silicon host. Its Hugging Face file size is 16.7 GiB. It should fit in unified memory, leaving room for the operating system and a modest KV cache.
 
 The model advertises a 262,144-token maximum context window, but this machine should start with 8,192 tokens. Context memory grows quickly; raise it only after stable testing.
 

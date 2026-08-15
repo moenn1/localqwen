@@ -1,10 +1,10 @@
 # Local Qwen3.8 setup
 
-This directory is the local home for running `unsloth/Qwen3.8-27B-GGUF` on this Mac.
+This directory is the local home for running `unsloth/Qwen3.8-27B-GGUF` on this Darwin host.
 
 ## Hardware
 
-- MacBook Pro with Apple M1 Pro and 32 GB unified memory
+- Darwin host with Apple Silicon and 32 GB unified memory
 - Metal-enabled `llama.cpp` build
 - Recommended model: `Qwen3.8-27B-UD-Q4_K_XL.gguf` (16.7 GiB)
 
@@ -24,7 +24,7 @@ After the model download and build finish:
 ./scripts/serve-qwen3.8.sh
 ```
 
-The server listens only on this Mac at `http://127.0.0.1:8080` and exposes OpenAI-compatible endpoints under `/v1`.
+The server listens only on this host at `http://127.0.0.1:8080` and exposes OpenAI-compatible endpoints under `/v1`.
 
 ## Download or resume the model
 

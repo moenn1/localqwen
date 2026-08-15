@@ -24,7 +24,7 @@ After the model download and build finish:
 ./scripts/serve-qwen3.8.sh
 ```
 
-The server listens only on this host at `http://127.0.0.1:8080` and exposes OpenAI-compatible endpoints under `/v1`.
+The server listens only on this host at `http://127.0.0.1:8081` and exposes OpenAI-compatible endpoints under `/v1`.
 
 ## Download or resume the model
 
@@ -40,10 +40,10 @@ On Windows PowerShell, use `./scripts/download-qwen3.8.ps1` and `./scripts/serve
 
 ```sh
 # Verify the server is ready
-curl http://127.0.0.1:8080/health
+curl http://127.0.0.1:8081/health
 
 # Show the model(s) offered by the API
-curl http://127.0.0.1:8080/v1/models
+curl http://127.0.0.1:8081/v1/models
 ```
 
 ## References

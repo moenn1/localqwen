@@ -1,7 +1,7 @@
 @{
     ModelPath       = 'models/Qwen3.8-27B-UD-Q4_K_XL.gguf'
     Host            = '127.0.0.1'
-    Port            = 8080
+    Port            = 8081
     ContextSize     = 8192
     GpuLayers       = 99
     ParallelSlots   = 1

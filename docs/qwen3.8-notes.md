@@ -18,3 +18,9 @@ The checked-in server config begins with the Thinking preset. For ordinary chat,
 ## Storage
 
 Keep at least 25–30 GB free before a model download. Hugging Face may use temporary cache space during the transfer.
+
+## Primary references
+
+- [Unsloth Qwen3.8 local guide](https://unsloth.ai/docs/models/qwen3.8)
+- [Qwen3.8 collection](https://huggingface.co/collections/Qwen/qwen38)
+- [Qwen3.8-27B Unsloth GGUF files](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF)

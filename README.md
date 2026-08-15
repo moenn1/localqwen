@@ -26,6 +26,14 @@ After the model download and build finish:
 
 The server listens only on this Mac at `http://127.0.0.1:8080` and exposes OpenAI-compatible endpoints under `/v1`.
 
+## Download or resume the model
+
+```sh
+./scripts/download-qwen3.8.sh
+```
+
+The 16.7 GiB download is resumable. The model file remains local and is excluded from Git.
+
 ## Useful commands
 
 ```sh
